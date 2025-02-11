@@ -1,0 +1,64 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    background-color: #0a0a0a;
+    line-height: 1.6;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Orbitron', sans-serif;
+    color: #00ff88;
+  }
+  
+  a {
+    color: #00ff88;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #00cc66;
+  }
+  
+  /* Header Section */
+  .header-section {
+    background-color: #111111;
+    padding: 1rem 0;
+  }
+  
+  .navbar-brand .logo {
+    height: 50px;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+    font-weight: 500;
+    margin: 0 0.5rem;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: #00ff88;
+  }
+  
+  .navbar-toggler {
+    border-color: #00ff88;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%2300ff88' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+  
+  /* Reviews Hero Section */
+  .reviews-hero-section {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    padding: 6rem 0;
+  }
+  
+  .reviews-hero-section h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .reviews-hero-section p {
+    font-size: 1.25
+  }
