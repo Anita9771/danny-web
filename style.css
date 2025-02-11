@@ -371,7 +371,7 @@ a:hover {
         margin-bottom: 1.5rem;
     }
 
-    footer .container, .about-content-section .container {
+    footer .container, .about-content-section .container, .about-section .container {
         text-align: center;
     }
 }
