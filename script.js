@@ -1,26 +1,10 @@
-// // Auto-Scrolling Reviews
-// const reviewsCarousel = document.querySelector('.reviews-carousel');
-// const reviewItems = document.querySelectorAll('.review-item');
-// let currentIndex = 0;
-
-// // Set the width of the carousel to fit all reviews
-// reviewsCarousel.style.width = `${reviewItems.length * 100}%`;
-
-// function showNextReview() {
-//   currentIndex = (currentIndex + 1) % reviewItems.length;
-//   reviewsCarousel.style.transform = `translateX(-${currentIndex * (100 / reviewItems.length)}%)`;
-// }
-
-// setInterval(showNextReview, 2000); // Change review every 2 seconds
-
 // Chat Box
 
 function toggleChat() {
-    var chatBox = document.getElementById("chatBox");
-    chatBox.style.display = (chatBox.style.display === "block") ? "none" : "block";
+  var chatBox = document.getElementById("chatBox");
+  chatBox.style.display = (chatBox.style.display === "block") ? "none" : "block";
 }
 
-// crypto datalet cryptoData = []; // Store all fetched crypto data
 
 // DOM Elements
 const cryptoGrid = document.querySelector('.crypto-grid');
@@ -61,13 +45,14 @@ fetchCryptoPrices();
 
 // Swiper
 const swiper = new Swiper('.swiper', {
-    loop: true, // Enables infinite scrolling
-    autoplay: {
-      delay: 2000, // Time in milliseconds (2 seconds)
-      disableOnInteraction: false, // Keeps autoplay running after user interaction
-    },
-    // pagination: {
-    //   el: '.swiper-pagination',
-    //   clickable: true,
-    // },
-  });
+  loop: true, // Enables infinite scrolling
+  autoplay: {
+    delay: 2000, // Time in milliseconds (2 seconds)
+    disableOnInteraction: false, // Keeps autoplay running after user interaction
+  },
+});
+
+
+
+
+

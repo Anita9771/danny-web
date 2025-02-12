@@ -52,6 +52,21 @@
     color: #00ff88;
 }
 
+.alert {
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+.alert.success {
+  background-color: #d4edda;
+  color: #155724;
+}
+.alert.danger {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
 /* WhatsApp Chat Icon */
 /* .whatsapp-button {
     position: fixed;
